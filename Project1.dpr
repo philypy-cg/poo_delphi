@@ -2,7 +2,7 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
+  view.principal in 'view.principal.pas' {Form1},
   pessoa in 'pessoa.pas';
 
 {$R *.res}

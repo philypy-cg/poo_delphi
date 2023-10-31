@@ -4,10 +4,14 @@ interface
 type
   TPessoa = class
     private
-      Fnumero: String;
     public
-      Nome : String;
-      property numero: String read Fnumero write Fnumero;
+      Id: Integer;
+      Nome: String;
+      Tipo: String;
+      Email: String;
+
+
+
   end;
 
 implementation
