@@ -1,0 +1,14 @@
+unit Unit1;
+
+interface
+  Type
+    TContaBancaria = Class
+      private
+      public
+        Nome : String;
+        Saldo : Double;
+    End;
+
+implementation
+
+end.
